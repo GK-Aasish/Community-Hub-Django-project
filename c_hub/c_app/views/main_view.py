@@ -11,3 +11,6 @@ def event_view (request):
 
 def meeting_view (request):
     return render(request, 'main/meeting.html')
+
+def setting_view (request):
+    return render(request, 'main/settings.html')
