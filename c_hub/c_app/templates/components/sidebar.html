@@ -41,8 +41,8 @@
             <i class="fa-solid fa-calendar-days mr-3"></i> Event
         </a>
 
-        <a href="{% url 'notice' %}" class="nav-link flex items-center px-3 py-2 rounded-lg
-       {% if request.resolver_match.url_name == 'notice' %}
+        <a href="{% url 'create_notice' %}" class="nav-link flex items-center px-3 py-2 rounded-lg
+       {% if request.resolver_match.url_name == 'create_notice' %}
            bg-sky-100 text-gray-900
        {% else %}
            text-gray-700 hover:bg-gray-100
